@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "name": "Core",
+            "path": "packages/core"
+        }.
+        {
+            "name": "UI",
+            "path": "packages/ui"
+        }
+    ]
+}
