@@ -1,0 +1,30 @@
+{
+  "name": "@ube/schemas",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "source": "./index.ts",
+  "exports": {
+    "require": "./dist/ube-schemas.cjs",
+    "default": "./dist/ube-schemas.modern.js",
+    "types": "./dist/index.d.ts"
+  },
+  "main": "./dist/ube-schemas.cjs",
+  "module": "./dist/ube-schemas.module.js",
+  "unpkg": "./dist/ube-schemas.umd.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "check": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "typescript": "^5.2.2"
+  }
+}

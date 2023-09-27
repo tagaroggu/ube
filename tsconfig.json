@@ -1,0 +1,7 @@
+{
+    "extends": "@tagaroggu/ts/tsconfig.json",
+    "compilerOptions": {
+        "target": "ESNext"
+    },
+    "exclude": ["dist"]
+}
